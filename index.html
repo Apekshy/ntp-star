@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    body {
+      background-color: rgba(14, 13, 13, 0.795);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100wh;
+    }
+    .container {
+      width: 350px;
+      min-height: 400px;
+      background-color: #1a2029;
+      border-radius: 30px;
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+    }
+    h1 {
+      color: white;
+      font-weight: 500;
+    }
+    .icon {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      padding: 10px;
+      border: 1px solid  #343536;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    p {
+      color: rgb(163, 151, 151);
+    }
+    .number {
+      display: flex;
+      
+    }
+    .numbers {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      margin: 10px;
+      color: blanchedalmond;
+     
+      border: 1px solid  #343536;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .numbers :hover {
+      background-color: aquamarine;
+    }
+    .button {
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 20px;
+      background-color: orange;
+      color: white;
+      border: none;
+    }
+
+    @media screen and (max-width:480px) {
+      .container {
+      width:200px;
+      height:200px;
+    }
+  }
+    
+      
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="icon">
+      <img src="/images/icon-star.svg" alt="">
+    </div>
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+    <div class="number">
+      <div class="numbers">
+        1
+      </div>
+      <div class="numbers">
+        2
+      </div>
+      <div class="numbers">
+        3
+      </div>
+      <div class="numbers">
+        4
+      </div>
+      <div class="numbers">
+        5
+      </div>
+
+    </div>
+    <a class="button"
+    href="/thankspage.html">Submit</a> 
+    
+
+
+
+  </div>
+
+  <!-- Rating state start
+
+  How did we do?
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit
+
+   Rating state end 
+
+  Thank you state start
+
+You selected  Add rating here  out of 5
+
+  Thank you!
+
+   We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch! 
+
+  Thank you state end -->
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+
+</body>
+</html>
